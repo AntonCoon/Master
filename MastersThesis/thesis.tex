@@ -1,161 +1,181 @@
-\documentclass[a4paper,12pt]{article}
+%Тип документа
+\documentclass[a4paper,14pt,russian]{extreport}
+
+%Чтобы работали все шрифты
+\usepackage{extsizes}
+%\usepackage{cmap} % для кодировки шрифтов в pdf
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[english,russian]{babel}
-\usepackage[pdftex,unicode]{hyperref}
+\usepackage[russian]{babel}
+
+%Для рисуночков
 \usepackage[pdftex]{graphicx}
 \graphicspath{{figures/}}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage{amssymb,amsfonts,amsmath,amsthm}
 \usepackage{indentfirst}
-\usepackage[left=2cm,right=2cm,
-    top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
-\usepackage{amsmath}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{makecell}
+\usepackage{multirow}
 
-\title{Реферат}
+%Настройка заголовков
+\usepackage{titlesec}
+ \titleformat{\chapter}[display]
+    {\filcenter}
+    {\MakeUppercase{\chaptertitlename} \thechapter}
+    {8pt}
+    {\bfseries}{}
+ \titleformat{\section}
+    {\normalsize\bfseries}
+    {\thesection}
+    {1em}{}
+ \titleformat{\subsection}
+    {\normalsize\bfseries}
+    {\thesubsection}
+    {1em}{}
+ % Настройка вертикальных и горизонтальных отступов
+\titlespacing*{\chapter}{0pt}{-30pt}{8pt}
+\titlespacing*{\section}{\parindent}{*4}{*4}
+\titlespacing*{\subsection}{\parindent}{*4}{*4}
+
+
+ 
+\linespread{1.3}
+\renewcommand{\rmdefault}{ftm}
+\frenchspacing
+
+
+\usepackage{tocloft}
+\renewcommand{\cfttoctitlefont}{\hspace{0.38\textwidth} \bfseries\MakeUppercase}
+\renewcommand{\cftbeforetoctitleskip}{-1em}
+\renewcommand{\cftaftertoctitle}{\mbox{}\hfill \\ \mbox{}\hfill{\footnotesize Стр.}\vspace{-2.5em}}
+\renewcommand{\cftchapfont}{\normalsize\bfseries \MakeUppercase{\chaptername} }
+\renewcommand{\cftsecfont}{\hspace{31pt}}
+\renewcommand{\cftsubsecfont}{\hspace{11pt}}
+\renewcommand{\cftbeforechapskip}{1em}
+\renewcommand{\cftparskip}{-1mm}
+\renewcommand{\cftdotsep}{1}
+\setcounter{tocdepth}{2} % задать глубину оглавления — до subsection включительно
+
+\usepackage[tableposition=top]{caption}
+\usepackage{subcaption}
+\DeclareCaptionLabelFormat{gostfigure}{Рисунок #2}
+\DeclareCaptionLabelFormat{gosttable}{Таблица #2}
+\DeclareCaptionLabelSeparator{gost}{~---~}
+\captionsetup{labelsep=gost}
+\captionsetup[figure]{labelformat=gostfigure}
+\captionsetup[table]{labelformat=gosttable}
+\renewcommand{\thesubfigure}{\asbuk{subfigure}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+
+\usepackage{geometry}
+\geometry{left=2.5cm}
+\geometry{right=1cm}
+\geometry{top=2cm}
+\geometry{bottom=2cm}
+
+\newcommand{\empline}{\mbox{}\newline}
+\newcommand{\likechapterheading}[1]{ 
+    \begin{center}
+    \textbf{\MakeUppercase{#1}}
+    \end{center}
+    \empline}
+
+\makeatletter
+    \renewcommand{\@dotsep}{2}
+    \newcommand{\l@likechapter}[2]{{\bfseries\@dottedtocline{0}{0pt}{0pt}{#1}{#2}}}
+\makeatother
+\newcommand{\likechapter}[1]{    
+    \likechapterheading{#1}    
+    \addcontentsline{toc}{likechapter}{\MakeUppercase{#1}}}
+
+
+\title{Бакалавр}
 \author{Елисеев}
 \date{The date}
 \begin{document}
+	\def\contentsname{СОДЕРЖАНИЕ}
 	\begin{titlepage}
 		\begin{center}
-			\large Университет ИТМО\\[6cm]
-			\huge Реферат\\[0.6cm]
-			\large <<Матричная формулировка квантовой механики. Матричная алгебра.>>\\[8cm]
+			\large Университет ИТМО\\[2cm]
+			\huge Мой прекрасный диплом\\
+			\large <<СВЕРХБЫСТРАЯ ДИНАМИКА НОСИТЕЛЕЙ ЗАРЯДА В ПОЛУПРОВОДНИКОВЫХ НИТЕВИДНЫХ НАНОКРИСТАЛЛАХ.>>\\[3cm]
 			\begin{flushleft}
 				\emph{Студент:} Елисеев А.\\
-				\emph{Группа:} V3300\\
-				\emph{Преподаватель:} Комолов Владимир Леонидович\\
+				\emph{Группа:} V3400\\
+				\emph{Научрук:} Валерий Николаевич\\
 			\end{flushleft}
 			\vfill
 			\large Санкт-Петербург\\
-			\large 2016
+			\large 2017
 		\end{center}
 		\thispagestyle{empty} % без ном. стр.
 	\end{titlepage}
-	\section{Оглавление}
+	\setcounter{page}{2}
+	\likechapter{Аннотация}
+		\newpage
 	\tableofcontents
-	\newpage
-	\section{Создание квантовой механики в матричной форме}
-	Первая из предложенных формулировок квантовой механики. Впервые описана в 1925 г. и развита Вернером
-Гейзенбергом. В 1932 г. он за свою теорию получил нобелевскую премию "За создание квантовой механики в матричной форме". В основу теории легла идея каждой механической наблюдаемой (таким, как
-положение, импульс или энергия) сопоставить матрицеу (или оператор).
-	\section{Описание}
-	Квантовые динамические переменные не подчиняются коммутативному закону умножения. Подобные некоммутативные динамические переменные, часто называются просто операторами, их удобно представлять в виде матриц. Обычно, в квантовой механике имеют дело с эрмитовыми и унитарными матрицами бесконечного ранга. Например матрицу оператора энергии с помощью некоторого полного набора ортонормированных функций $\nu_{n}(r)$ можно представить в седующем виде:
-	\begin{equation}
-		H_{nm}=\int d\tau \nu ^{*}_{n}(r)\hat{H} \nu_{m}(r)  
-	\end{equation}
-	Такая матрица позволяет определить энергетические состояния системы. Аналогично, в матричном виде записываются и другие наблюдаемые величины.
-	\section{Матричная алгебра}
-	\subsection{Определенее}
-	Для начала необходимо вести определение матрицы. Матрица - это математический объект, записываемый в виде прямоугольной таблицы элементов кольца или поля, которая представляет собой совокупность строк и столбцов, на пересечении которых находятся её элементы. Количество строк и столбцов матрицы задает размер матрицы. Такая таблица складывается и перемножается с другими таблицами по определенным формулам.\par
-	Рассмотрим например матрицы $A$ $n$ на $m$ и $B$ $k$ на $s$
-\begin{equation}
-A = \begin{pmatrix}
-a_{11} & a_{12} & \cdots & a_{1m} \\
-a_{21} & a_{22} & \cdots & a_{2m} \\         
-\vdots & \vdots & \ddots & \vdots \\
-a_{n1} & a_{n2} & \cdots & a_{nm}
-\end{pmatrix}
-\end{equation}
-\begin{equation}
-B = \begin{pmatrix}
-b_{11} & b_{12} & \cdots & b_{1s} \\
-b_{21} & b_{22} & \cdots & b_{2s} \\         
-\vdots & \vdots & \ddots & \vdots \\
-b_{k1} & b_{k2} & \cdots & b_{ks}
-\end{pmatrix}
-\end{equation}
-\subsection{Сложение}
-Матрицы $A$ $B$ можно сложить, если $n=k$ и $m=s$, тогда элементы матрицы $C=A+B$ вычисляется следующим образом:
-\begin{equation}
-c_{i,j}=a_{i,j}+b_{i,j}
-\end{equation}
-Здесь $i = \{1,2\ldots n\}$ и $j = \{1,2\ldots m\}$
-\subsection{Умножение}
-Если число столбцов матрицы $A$ равно числу строк матрицы $B$ ($m=k$), то матрицы можно перемножить ($A$ умножить на $B$ справа), по следующему правилу: если $C=AB$ то:
-\begin{equation}
-c_{i,j}=\Sigma_{t=1}^{m}a_{i,t}b_{t,j}
-\end{equation}
-\subsection{Свойства умножения и сложения}
-\begin{itemize}
-\item Сложение матриц коммутативно $A+B=B+A$
-\item Умножение матриц дистрибутивно $A(B+C)=AB+AC$
-\item Умножение матриц ассоциативно $A(B+C)=AB+AC$
-\end{itemize}
-\subsection{Нулевая матрица}
-Матрица, все элементы которой равны нулю. Для квадратной нулевой матрицы и квадратной матрицы $A$ выполняется $A0=0A$.
-\subsection{Единичная матрица}
-Квадратная матрица, на главной диагонали которой стоят единичные матричные элементы.
-\begin{equation}
-E = \begin{pmatrix}
-1 & 0 & \cdots & 0 \\
-0 & 1 & \cdots & 0 \\         
-\vdots & \vdots & \ddots & \vdots \\
-0 & 0 & \cdots & 1
-\end{pmatrix}
-\end{equation}
-Для единичной матрицы справедливо $AE=EA$
-\subsection{Произведение матрицы на число}
-Произведением числа $q$ на матрицу $A$ является матрица, элементы которой получаются умножением матричных элементов матрицы $A$ на это число.
-\begin{equation}
-q A = \begin{pmatrix}
-q a_{11} & q a_{12} & \cdots & q a_{1m} \\
-q a_{21} & q a_{22} & \cdots & q a_{2m} \\         
-\vdots & \vdots & \ddots & \vdots \\
-q a_{n1} & q a_{n2} & \cdots & q a_{nm}
-\end{pmatrix}
-\end{equation}
-\subsection{Шпур}
-Сумма диагональных матричных элементов квадратной матрицы называется ее шпуром или следом (обозначается как Spur, Trace)
-\begin{equation}
-	Sp(A)=\Sigma_{k=1}^{n} A_{k,k}
-\end{equation}
-\subsection{Обратная матрица}
-Матрица $A$ может иметь или не иметь обратную матрицу $A^{-1}$, определяемую соотношениями
-\begin{equation}
-A A^{-1}=A^{-1} A
-\end{equation}
-Если матрица A имеет обратную, то она называется несингулярной и является квадратной.
-\subsection{Эрмитово сопряжение}
-Матрица $A^+$  называется эрмитово сопряженной с $A$, если она получена из $A$ заменой строк на столбцы и всех матричных элементов на комплексно сопряженные им величины. Это можно записать следующим образом.
-\begin{equation}
-A = \begin{pmatrix}
-a_{11} & a_{12} & \cdots & a_{1m} \\
-a_{21} & a_{22} & \cdots & a_{2m} \\         
-\vdots & \vdots & \ddots & \vdots \\
-a_{n1} & a_{n2} & \cdots & a_{nm}
-\end{pmatrix}
-\end{equation}
-\begin{equation}
-A^+ = \begin{pmatrix}
-a^*_{11} & a^*_{12} & \cdots & a^*_{1m} \\
-a^*_{21} & a^*_{22} & \cdots & a^*_{2m} \\         
-\vdots & \vdots & \ddots & \vdots \\
-a^*_{n1} & a^*_{n2} & \cdots & a^*_{nm}
-\end{pmatrix}
-\end{equation}
-\begin{equation}
-(A^+)_{kl}=A^*_{lk}
-\end{equation}
-\subsection{Самосопряженность и унитарность}
-\begin{itemize}
-\item Матрица называется эрмитовой или самосопряженной, если $A=A^+$
-\item Унитарность матрицы заается следующим образом $A^+=A^{-1}$
-\end{itemize}
-\subsection{Диаганализация}
-Матрица $S$ диагонализует матрицу $A$, если в результате преобразования получается диагональная матрица $A'$
-\begin{equation}
-A'_{kl}=A'_k \delta_{kl}
-\end{equation}
-Собственные значения диагональной матрицы $A'$, полученной из $A$ в результате преобразования, не зависят от способа диагонализации $A$: они являются и собственными значениями первоначальной недиагональной матрицы $A$.
-\subsection{Важные свойства в квантовой механике}
-Основная теорема: любую эрмитову матрицу можно привести к диагональному виду с помощью унитарного преобразования.\par
-Следствие: собственные значения эрмитовой матрицы определяются однозначно.\par
-Чтобы две эрмитовы матрицы можно было диагонализовать с помощью одного и того же унитарного преобразования, необходимо и достаточно чтобы эти матрицы коммутировали, т.е.
-\begin{equation}
-AB=BA
-\end{equation}
-Или через оператор коммутации $[AB]=0$ \par
-Собственные значения эрмитовой матрицы вещественны.
+	\chapter{Введение}
+		Какие то общие слова про использование и важность нитевидных нанокристаллов.
+		\section{Использование ННК в качестве эмиттеров в ТГц спектроскопии}
+			Найти первую статью про ТГц спектроскопию.\par
+			Рассказать о том, почему лучше использовать ННК в качестве эмиттеров ТГц.\par
+			Сослаться на статью, про то, что в полупроводниковых ННК ТГц генерится за счет движения носителей.
+		\section{Динамика носителей в ННК}
+			Какие есть работы и что в них изучено.\par
+			Чего нет и почему это необходимо.
+	\chapter{Основная часть}
+			Коротко о том, что я напишу в этой главе.
+		\section{Зависимость ТГц излучения от динамики}
+			Коротко, о том, от чего зависит ТГц излучение от ННК. Определяющие процессы.	
+		\section{Схема установки, описание метода}
+			Ссылочка На статью, где впервые описан этот метод и его описание\par	
+			Схема, ссылка на приложение, в котором описаны характеристики элементов, используемых в схеме.\par
+		\section{Упорядоченные образцы ННК GaAs}
+			Метод газофазной эпитаксии, ссылка на статью и короткое описание с картиночкой\par
+			Ориентация $GaAs$, получившиеся образцы, фото СЭМ
+		\section{Полученные результаты}
+			Типичные волновые формы\par
+			Динамика, для упорядоченных образцов, при разной мощности накачки\par
+			Характерные участки (короткая и длинная динамика) \par
+			Зависимость от мощности накачки, для короткой динамики.\par
+			Объяснение результатов, гипотезы, предположения.\par
+			Возможно, спектральные компоненты, для подтверждения предположений
+		\section{Упорядоченные образцы с шубой}
+			Узнать у ВН и разобраться самому
+		\section{Связь GaAs и AlGaAs}
+			Наверняка в динамике должно быть видно проявление изменения концентрации ловушек на поверхности и вообще 					изменения встроенного поля. Тут же надо привести зонную диаграмму.
+		\section{Неупорядоченные ННК на основе GaAs}
+			Метод получения, ссылка на статью и короткое описание.
+		\section{Динамика в неупорядоченных ННК}
+			Динамика, основные параметры
+		\section{Анализ и сравнение для разных образцов}
+			Объяснение разницы в динамике
+		\section{Те самые образцы, для которых эффективность генерации увеличивается}
+			Процессы, отвечающие за генерацию ТГц в этих образцах.\par
+			Почему таки происходит увеличение эффективности.\par
+			Сравнить "наилучшую" эффективность для каждого из образцов
+	\chapter{Заключение}
+		\section{Динамика}
+			Все, что удалось узнать.
+		\section{Где следует применить полученные результаты}
+			Наверное важно сказать об этом.
+		\section{Положения дипломной работы}
+			Все что удалось узнать, но в виде выражений и емких утверждений.
+			\newpage
+	\likechapter{Список сокращений и условных обозначений}
+		\newpage
+	\likechapter{Список терминов}
+		\newpage
+	\likechapter{Список использованных источников}
+		\newpage
+	\likechapter{Приложения}
 \end{document}
 
 
