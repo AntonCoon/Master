@@ -98,7 +98,7 @@
 % Для работы с библиографией
 \usepackage[square,numbers,sort&compress]{natbib}
 \renewcommand{\bibnumfmt}[1]{#1.\hfill} % нумерация источников в самом списке — через точку
-\renewcommand{\bibsection}{\likechapter{Список литературы}} % заголовок специального раздела
+\renewcommand{\bibsection}{\likechapter{Список использованных источников}} % заголовок специального раздела
 \setlength{\bibsep}{0pt}
 
 
@@ -131,7 +131,7 @@
 		Полупроводниковые наноструктуры в виде свободно стоящих
 полупроводниковых нитевидных нанокристаллов (ННК), а так же отдельные ННК, являются одними из наиболее перспективных нанообъектов для применения в наноэлектронике,
 нанофотонике и нанобиоэлектронике. ННК используются для создания
-сверхчувствительных фотодиодов \cite{semicondNNW2006}, транзисторов сверхвысокой плотности [статья про это], эмиттеров излучения видимого диапазона волн [статья про это] и ТГц диапазона [статья В.Н.].\par
+сверхчувствительных фотодиодов \cite{semicondNNW2006}, транзисторов сверхвысокой плотности \cite{NNWtransistors}, эмиттеров излучения видимого диапазона волн \cite{singleNNWlaser} и ТГц диапазона \cite{THzGeneration}\par
 Решающую роль 
 		\section{Использование ННК в качестве эмиттеров в ТГц спектроскопии}
 			Найти первую статью про ТГц спектроскопию.\par
@@ -183,12 +183,13 @@
 		\newpage
 	\likechapter{Список терминов}
 		\newpage
-	\likechapter{Список использованных источников}
-		\begin{thebibliography}{9}
-			\bibitem{semicondNNW2006}
-				Agarwal R., Lieber C. M. Semiconductor nanowires: optics and optoelectronics //Applied Physics A. – 2006. – Т. 85. – №. 3. – С. 209.
-		\end{thebibliography}		
-		\newpage
+	\begin{thebibliography}{9}
+		\bibitem{semicondNNW2006} Agarwal R., Lieber C. M. Semiconductor nanowires: optics and optoelectronics //Applied Physics A. – 2006. – Т. 85. – №. 3. – С. 209.
+		\bibitem{NNWtransistors} Tomioka K., Yoshimura M., Fukui T. A III-V nanowire channel on silicon for high-performance vertical transistors //Nature. – 2012. – Т. 488. – №. 7410. – С. 189-192.
+		\bibitem{singleNNWlaser} Duan X. et al. Single-nanowire electrically driven lasers //Nature. – 2003. – Т. 421. – №. 6920. – С. 241-245.
+		\bibitem{THzGeneration} Trukhin V. N. et al. Terahertz generation by GaAs nanowires //Applied Physics Letters. – 2013. – Т. 103. – №. 7. – С. 072108.
+	\end{thebibliography}		
+	\newpage
 	\likechapter{Приложения}
 \end{document}
 
