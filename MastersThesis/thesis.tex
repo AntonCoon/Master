@@ -7,10 +7,20 @@
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
 
+
 %Для рисуночков
+%\usepackage[pdftex]{graphicx}
+%\graphicspath{{figures/}}
+%\DeclareGraphicsExtensions{.pdf,.png,.jpg}
 \usepackage[pdftex]{graphicx}
+\usepackage{float}
 \graphicspath{{figures/}}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage{indentfirst}
+\usepackage[left=2cm,right=2cm,
+    top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+
+
 \usepackage{amssymb,amsfonts,amsmath,amsthm}
 \usepackage{indentfirst}
 \usepackage[usenames,dvipsnames]{color}
@@ -143,7 +153,14 @@
 		\section{Транспорт, генерация и рекомбинация носителей в ННК.}
 			В связи с высокой значимостью изучения временных характеристик носителей заряда и их транспорта в полупроводниковых ННК для различных областей науки и техники, на текущий момент представлено немало работ посвященных этой тематике.
 			\subsection{Время жизни и подвижность носителей заряда.}
-				
+				На сегодняшний день многие научные группы изучают электрооптические свойства ННК на основе различных материалов. Так, значительный вклад в изучение влияния структуры полупроводниковых ННК на время жизни фототока и подвижность носителей в них сделали авторы \cite{CurrentLifetime}. В своей работе \cite{CurrentLifetime} авторы пользуясь методом  Optical-pump terahertz-probe spectroscopy, показали что покрытие ННК на основе $GaAs$ шубой $AlGaAs$ (материалом с более широкой запрещенной зоной) уменьшает плотность поверхностных ловушек до $82 \%$ тем самым увеличивая проводимость. Кроме того, им удалось установить, что двухтемпературный режим роста ННК на основе $GaAs$ почти удваивает подвижность носителей в ННК и втрое увеличивает время жизни свободных носителей.\par
+				В их работе исследованы образцы четырех типов, СЭМ фотография образцов и схематичное изображение которых приведены на Рис. \ref{ris:NNWfromArticle}
+				\begin{figure}[H]
+					\center{\includegraphics[width=0.6\linewidth]{NNWfromArticle}}
+					\caption{СЭМ фотография образцов и их схематичное изображение. Рисунок взят из статьи \cite{CurrentLifetime}}
+					\label{ris:NNWfromArticle}
+				\end{figure}
+				Авторы исследовали четыре вида ННК. Первые три вида были выращены при двухтемпературном режиме: nw1-C - обычные ННК на основе $GaAs$, nw2-CS - ННК на основе $GaAs$ с шубой $AlGaAs$ толщиной $\sim$ 30 нм, а на образце nw3-CSS поверх шубы $AlGaAs$ был еще нанесен тонкий слой $GaAs$ примерно 5 нм. Четвертых образец nw4-DCSS по структуре такой же как nw3-CSS, но выращен при однотемпературном режиме и поэтому подвержен двойному дефекту плотности.
 			\subsection{Время релаксации электронов по импульсу.}
 			\subsection{Особенности процессов диффузии и дрейфа носителей заряда.}
 
@@ -220,8 +237,9 @@
 		\bibitem{singleNNWlaser} Duan X. et al. Single-nanowire electrically driven lasers //Nature. – 2003. – Т. 421. – №. 6920. – С. 241-245.
 		\bibitem{THzGeneration} Trukhin V. N. et al. Generation of terahertz radiation in ordered arrays of GaAs nanowires //Applied Physics Letters. – 2015. – Т. 106. – №. 25. – С. 252104.
 		\bibitem{SiliconNWContactPhenomena} Аверкиев Н.С., Шик А.Я.  Контактные явления в квантовых нитях и пористом кремнии//Физика и техника полупроводников. - 1996. - №.2 - С. 199
+		\bibitem{CurrentLifetime} Parkinson P. et al. Carrier lifetime and mobility enhancement in nearly defectfree coreshell nanowires measured using time-resolved terahertz spectroscopy //Nano letters. – 2009. – Т. 9. – №. 9. – С. 3349-3353.
 	\end{thebibliography}		
-	\newpage
+	\newpage 
 	\likechapter{Приложения}
 \end{document}
 
