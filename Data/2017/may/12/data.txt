@@ -1,0 +1,3 @@
+may12_2 - initial+modulation (-100.4411)
+may12_3 - middle (-101.0921)
+may12_4 - end (-103.5071)
