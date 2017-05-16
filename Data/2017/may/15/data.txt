@@ -1,0 +1,6 @@
+P = 1 mW
+may15_3 - initial + modulation (-100.3851)
+may15_4 - middle (-100.6931)
+may15_5 - min (-104.0671)
+P = 0.5 mW
+may15_6 - free
