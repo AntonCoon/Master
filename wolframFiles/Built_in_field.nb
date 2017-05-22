@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     67914,       1315]
-NotebookOptionsPosition[     67547,       1298]
-NotebookOutlinePosition[     67895,       1313]
-CellTagsIndexPosition[     67852,       1310]
+NotebookDataLength[     67887,       1313]
+NotebookOptionsPosition[     67440,       1295]
+NotebookOutlinePosition[     67784,       1310]
+CellTagsIndexPosition[     67741,       1307]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1291,14 +1291,11 @@ SgFuBe4hfMiVxUqkoAwKWLkQwJSbRoUhreFi+QUUcHg/Wy5MRf2xfX93oYgC
    3.6982661618166666`*^9}, 3.6982661968982415`*^9, {3.6982663866848993`*^9, 
    3.698266422621812*^9}, {3.6982665497864733`*^9, 3.698266578710961*^9}, {
    3.6982666095916853`*^9, 3.698266627020864*^9}, 3.6982668482806244`*^9}]
-}, Open  ]],
-
-Cell[BoxData["Legended"], "Input",
- CellChangeTimes->{{3.6982667193730807`*^9, 3.6982667228634143`*^9}}]
+}, Open  ]]
 },
 WindowSize->{1366, 688},
 WindowMargins->{{-8, Automatic}, {Automatic, -8}},
-FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
+FrontEndVersion->"11.1 for Microsoft Windows (64-bit) (March 13, 2017)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -1313,10 +1310,11 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 22614, 455, 2109, "Input"],
-Cell[23197, 479, 44227, 813, 791, "Output"]
-}, Open  ]],
-Cell[67439, 1295, 104, 1, 30, "Input"]
+Cell[580, 22, 22614, 455, 2109, "Input", "ExpressionUUID" -> \
+"58d1dfea-0ec5-449d-84fe-c8caff9f5f5f"],
+Cell[23197, 479, 44227, 813, 758, "Output", "ExpressionUUID" -> \
+"681621a8-3977-47fb-a8bc-0d2e99c673cd"]
+}, Open  ]]
 }
 ]
 *)
