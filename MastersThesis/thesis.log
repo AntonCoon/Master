@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  4 JUN 2017 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  5 JUN 2017 01:41
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1001,39 +1001,26 @@ File: figures/OrderedSamples.jpg Graphic file (type jpg)
 Package pdftex.def Info: figures/OrderedSamples.jpg used on input line 304.
 (pdftex.def)             Requested size: 423.2378pt x 224.51317pt.
  [20]
-<figures/long600100.jpg, id=124, 577.15625pt x 296.10625pt>
+<figures/long600100.jpg, id=124, 791.95876pt x 389.455pt>
 File: figures/long600100.jpg Graphic file (type jpg)
 
 <use figures/long600100.jpg>
-Package pdftex.def Info: figures/long600100.jpg used on input line 314.
-(pdftex.def)             Requested size: 224.06393pt x 114.95685pt.
-
-<figures/long1200100.jpg, id=125, 570.13pt x 297.11pt>
-File: figures/long1200100.jpg Graphic file (type jpg)
-
-<use figures/long1200100.jpg>
-Package pdftex.def Info: figures/long1200100.jpg used on input line 318.
-(pdftex.def)             Requested size: 224.06393pt x 116.76553pt.
-
-Overfull \hbox (3.04219pt too wide) in paragraph at lines 313--320
-[]$[]$  $[]$ 
- []
-
-[21 <./figures/OrderedSamples.jpg>] [22 <./figures/long600100.jpg> <./figures/l
-ong1200100.jpg>] [23]
+Package pdftex.def Info: figures/long600100.jpg used on input line 313.
+(pdftex.def)             Requested size: 423.2378pt x 208.13351pt.
+ [21 <./figures/OrderedSamples.jpg>] [22 <./figures/long600100.jpg>] [23] [24]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[24
+[25
 
-] [25] [26] [27] [28] (thesis.aux)
+] [26] [27] [28] [29] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6731 strings out of 493634
- 92508 string characters out of 3143744
+ 6726 strings out of 493634
+ 92368 string characters out of 3143744
  173119 words of memory out of 3000000
- 9986 multiletter control sequences out of 15000+200000
+ 9982 multiletter control sequences out of 15000+200000
  10261 words of font info for 30 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  36i,13n,43p,3559b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1050,9 +1037,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (28 pages, 660445 bytes).
+Output written on thesis.pdf (29 pages, 654715 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
+ 399 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
