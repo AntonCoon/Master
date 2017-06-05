@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  5 JUN 2017 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  6 JUN 2017 00:06
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1000,38 +1000,52 @@ File: figures/OrderedSamples.jpg Graphic file (type jpg)
 <use figures/OrderedSamples.jpg>
 Package pdftex.def Info: figures/OrderedSamples.jpg used on input line 304.
 (pdftex.def)             Requested size: 423.2378pt x 224.51317pt.
- [20]
-<figures/long600100.pdf, id=124, 791.95876pt x 389.455pt>
+ [20] [21 <./figures/OrderedSamples.jpg>]
+<figures/long600100.pdf, id=127, 791.95876pt x 389.455pt>
 File: figures/long600100.pdf Graphic file (type pdf)
 
 <use figures/long600100.pdf>
 Package pdftex.def Info: figures/long600100.pdf used on input line 313.
 (pdftex.def)             Requested size: 423.2378pt x 208.13351pt.
 
-<figures/long1200100.pdf, id=125, 782.925pt x 389.455pt>
+<figures/long120065.pdf, id=128, 769.87625pt x 389.455pt>
+File: figures/long120065.pdf Graphic file (type pdf)
+
+<use figures/long120065.pdf>
+Package pdftex.def Info: figures/long120065.pdf used on input line 318.
+(pdftex.def)             Requested size: 423.2378pt x 214.10582pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/long1200100.pdf, id=129, 782.925pt x 389.455pt>
 File: figures/long1200100.pdf Graphic file (type pdf)
 
 <use figures/long1200100.pdf>
-Package pdftex.def Info: figures/long1200100.pdf used on input line 318.
+Package pdftex.def Info: figures/long1200100.pdf used on input line 324.
 (pdftex.def)             Requested size: 423.2378pt x 210.53432pt.
- [21 <./figures/OrderedSamples.jpg>]
+ [22 <./figures/long600100.pdf>] [23 <./figures/long120065.pdf> <./figures/long
+1200100.pdf
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[22 <./figures/long600100.pdf>] [23 <./figures/long1200100.pdf>] [24]
+pdfTeX warning: pdflatex.exe (file ./figures/long1200100.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>] [24] [25]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[25
+[26
 
-] [26] [27] [28] [29] (thesis.aux)
+] [27] [28] [29] [30] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 6732 strings out of 493634
- 92511 string characters out of 3143744
- 173130 words of memory out of 3000000
- 9987 multiletter control sequences out of 15000+200000
+ 6738 strings out of 493634
+ 92648 string characters out of 3143744
+ 173141 words of memory out of 3000000
+ 9992 multiletter control sequences out of 15000+200000
  10261 words of font info for 30 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  36i,13n,43p,3559b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1048,9 +1062,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (29 pages, 668410 bytes).
+Output written on thesis.pdf (30 pages, 696624 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
+ 416 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
