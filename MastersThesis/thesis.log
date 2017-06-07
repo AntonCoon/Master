@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  6 JUN 2017 00:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  7 JUN 2017 22:24
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1018,14 +1018,14 @@ Package pdftex.def Info: figures/long120065.pdf used on input line 318.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/long1200100.pdf, id=129, 782.925pt x 389.455pt>
+[22 <./figures/long600100.pdf>]
+<figures/long1200100.pdf, id=136, 782.925pt x 389.455pt>
 File: figures/long1200100.pdf Graphic file (type pdf)
 
 <use figures/long1200100.pdf>
 Package pdftex.def Info: figures/long1200100.pdf used on input line 324.
 (pdftex.def)             Requested size: 423.2378pt x 210.53432pt.
- [22 <./figures/long600100.pdf>] [23 <./figures/long120065.pdf> <./figures/long
-1200100.pdf
+ [23 <./figures/long120065.pdf> <./figures/long1200100.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/long1200100.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
@@ -1036,9 +1036,6 @@ ultiple pdfs with page group included in a single page
 ] [27] [28] [29] [30] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -1062,7 +1059,7 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (30 pages, 696624 bytes).
+Output written on thesis.pdf (30 pages, 697358 bytes).
 PDF statistics:
  416 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
