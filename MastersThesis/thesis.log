@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  15 JUN 2017 04:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  15 JUN 2017 17:02
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1064,12 +1064,18 @@ File: figures/shortLog600100.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/shortLog600100.pdf used on input line 359.
 (pdftex.def)             Requested size: 423.2378pt x 204.37852pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <figures/shortLog120065.pdf, id=169, 782.925pt x 382.42876pt>
 File: figures/shortLog120065.pdf Graphic file (type pdf)
 
 <use figures/shortLog120065.pdf>
 Package pdftex.def Info: figures/shortLog120065.pdf used on input line 364.
 (pdftex.def)             Requested size: 423.2378pt x 206.73602pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <figures/shortLog1200100.pdf, id=170, 782.925pt x 382.42876pt>
 File: figures/shortLog1200100.pdf Graphic file (type pdf)
@@ -1081,22 +1087,12 @@ Package pdftex.def Info: figures/shortLog1200100.pdf used on input line 369.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26]
-Overfull \vbox (141.51515pt too high) has occurred while \output is active []
-
-
-[27 <./figures/shortLog600100.pdf> <./figures/shortLog120065.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures/shortLog120065.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
-> <./figures/shortLog1200100.pdf
+[26] [27 <./figures/shortLog600100.pdf>] [28 <./figures/shortLog120065.pdf> <./
+figures/shortLog1200100.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/shortLog1200100.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->] [28] [29]
+>] [29]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 [30
 
@@ -1104,12 +1100,15 @@ n: multiple pdfs with page group included in a single page
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 6776 strings out of 493634
- 93601 string characters out of 3143744
+ 6777 strings out of 493634
+ 93614 string characters out of 3143744
  173232 words of memory out of 3000000
- 10024 multiletter control sequences out of 15000+200000
+ 10025 multiletter control sequences out of 15000+200000
  10261 words of font info for 30 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  36i,13n,43p,3559b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1126,9 +1125,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (34 pages, 846394 bytes).
+Output written on thesis.pdf (34 pages, 846662 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
+ 458 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
