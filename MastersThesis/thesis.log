@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.4)  16 JUN 2017 19:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.4)  16 JUN 2017 21:00
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1246,11 +1246,11 @@ usion: multiple pdfs with page group included in a single page
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 400.
 
-[30] [31]
+[30] [31] [32]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[32
+[33
 
-] [33] [34] [35] [36] (thesis.aux)
+] [34] [35] [36] [37] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1276,9 +1276,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (36 pages, 912461 bytes).
+Output written on thesis.pdf (37 pages, 913892 bytes).
 PDF statistics:
- 483 PDF objects out of 1000 (max. 8388607)
+ 489 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
