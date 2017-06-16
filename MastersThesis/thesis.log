@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.4)  15 JUN 2017 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.4)  16 JUN 2017 15:49
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1168,9 +1168,6 @@ File: figures/short120065.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/short120065.pdf used on input line 338.
 (pdftex.def)             Requested size: 423.2378pt x 210.53432pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 <figures/short1200100.pdf, id=148, 782.925pt x 389.455pt>
 File: figures/short1200100.pdf Graphic file (type pdf)
 
@@ -1186,89 +1183,86 @@ iple pdfs with page group included in a single page
 File: figures/shortLog600100.pdf Graphic file (type pdf)
 
 <use figures/shortLog600100.pdf>
-Package pdftex.def Info: figures/shortLog600100.pdf used on input line 359.
+Package pdftex.def Info: figures/shortLog600100.pdf used on input line 358.
 (pdftex.def)             Requested size: 423.2378pt x 204.37852pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/shortLog120065.pdf, id=168, 782.925pt x 382.42876pt>
+ [26 <./figures/shortLog600100.pdf>]
+<figures/shortLog120065.pdf, id=175, 782.925pt x 382.42876pt>
 File: figures/shortLog120065.pdf Graphic file (type pdf)
 
 <use figures/shortLog120065.pdf>
-Package pdftex.def Info: figures/shortLog120065.pdf used on input line 364.
+Package pdftex.def Info: figures/shortLog120065.pdf used on input line 365.
 (pdftex.def)             Requested size: 423.2378pt x 206.73602pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/shortLog1200100.pdf, id=169, 782.925pt x 382.42876pt>
+<figures/shortLog1200100.pdf, id=176, 782.925pt x 382.42876pt>
 File: figures/shortLog1200100.pdf Graphic file (type pdf)
 
 <use figures/shortLog1200100.pdf>
-Package pdftex.def Info: figures/shortLog1200100.pdf used on input line 369.
+Package pdftex.def Info: figures/shortLog1200100.pdf used on input line 370.
 (pdftex.def)             Requested size: 423.2378pt x 206.73602pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/linear600100.pdf, id=170, 785.93625pt x 382.42876pt>
-File: figures/linear600100.pdf Graphic file (type pdf)
-
-<use figures/linear600100.pdf>
-Package pdftex.def Info: figures/linear600100.pdf used on input line 375.
-(pdftex.def)             Requested size: 423.2378pt x 205.94824pt.
-
-<figures/linear120065.pdf, id=171, 763.85374pt x 382.42876pt>
-File: figures/linear120065.pdf Graphic file (type pdf)
-
-<use figures/linear120065.pdf>
-Package pdftex.def Info: figures/linear120065.pdf used on input line 380.
-(pdftex.def)             Requested size: 423.2378pt x 211.8945pt.
-
-<figures/linear1200100.pdf, id=172, 776.9025pt x 385.44pt>
-File: figures/linear1200100.pdf Graphic file (type pdf)
-
-<use figures/linear1200100.pdf>
-Package pdftex.def Info: figures/linear1200100.pdf used on input line 385.
-(pdftex.def)             Requested size: 423.2378pt x 209.98123pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26] [27 <./figures/shortLog600100.pdf>] [28 <./figures/shortLog120065.pdf> <./
-figures/shortLog1200100.pdf
+ [27 <./figures/shortLog120065.pdf> <./figures/shortLog1200100.pdf
 
 pdfTeX warning: pdflatex (file ./figures/shortLog1200100.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] [29 <./figures/linear600100.pdf>] [30 <./figures/linear120065.pdf> <./figure
-s/linear1200100.pdf
+>] <figures/linear600100.pdf, id=187, 785.93625pt x 382.42876pt>
+File: figures/linear600100.pdf Graphic file (type pdf)
+
+<use figures/linear600100.pdf>
+Package pdftex.def Info: figures/linear600100.pdf used on input line 376.
+(pdftex.def)             Requested size: 423.2378pt x 205.94824pt.
+
+<figures/linear120065.pdf, id=188, 763.85374pt x 382.42876pt>
+File: figures/linear120065.pdf Graphic file (type pdf)
+
+<use figures/linear120065.pdf>
+Package pdftex.def Info: figures/linear120065.pdf used on input line 381.
+(pdftex.def)             Requested size: 423.2378pt x 211.8945pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/linear1200100.pdf, id=189, 776.9025pt x 385.44pt>
+File: figures/linear1200100.pdf Graphic file (type pdf)
+
+<use figures/linear1200100.pdf>
+Package pdftex.def Info: figures/linear1200100.pdf used on input line 386.
+(pdftex.def)             Requested size: 423.2378pt x 209.98123pt.
+ [28 <./figures/linear600100.pdf> <./figures/linear1200100.pdf
 
 pdfTeX warning: pdflatex (file ./figures/linear1200100.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->]
-{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[31
+>] <figures/OrderedShortCoefitients.pdf, id=201, 794.97pt x 375.4025pt>
+File: figures/OrderedShortCoefitients.pdf Graphic file (type pdf)
 
-] [32] [33] [34] [35] (thesis.aux)
+<use figures/OrderedShortCoefitients.pdf>
+Package pdftex.def Info: figures/OrderedShortCoefitients.pdf used on input line
+ 392.
+(pdftex.def)             Requested size: 423.2378pt x 199.86742pt.
+ [29 <./figures/linear120065.pdf> <./figures/OrderedShortCoefitients.pdf
+
+pdfTeX warning: pdflatex (file ./figures/OrderedShortCoefitients.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 402.
+
+[30] [31]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+[32
+
+] [33] [34] [35] [36] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 7273 strings out of 493333
- 101228 string characters out of 3139201
- 185480 words of memory out of 3000000
- 10634 multiletter control sequences out of 15000+200000
+ 7281 strings out of 493333
+ 101471 string characters out of 3139201
+ 182514 words of memory out of 3000000
+ 10641 multiletter control sequences out of 15000+200000
  10261 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,13n,43p,3559b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,14n,43p,3559b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\IAM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm
 1000.pk> <C:\Users\IAM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi60
 0\larm1440.pk> <C:\Users\IAM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a
@@ -1282,9 +1276,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (35 pages, 902476 bytes).
+Output written on thesis.pdf (36 pages, 912033 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
+ 483 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
