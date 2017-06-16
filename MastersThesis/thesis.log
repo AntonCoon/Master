@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.4)  16 JUN 2017 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.4)  16 JUN 2017 19:04
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1244,7 +1244,7 @@ usion: multiple pdfs with page group included in a single page
 >]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 402.
+               Default added (so using `tbp') on input line 400.
 
 [30] [31]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
@@ -1262,7 +1262,7 @@ Here is how much of TeX's memory you used:
  10641 multiletter control sequences out of 15000+200000
  10261 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,43p,3559b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,15n,43p,3559b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\IAM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm
 1000.pk> <C:\Users\IAM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi60
 0\larm1440.pk> <C:\Users\IAM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a
@@ -1276,7 +1276,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (36 pages, 912033 bytes).
+Output written on thesis.pdf (36 pages, 912461 bytes).
 PDF statistics:
  483 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
