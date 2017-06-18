@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  17 JUN 2017 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  18 JUN 2017 07:00
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1158,20 +1158,79 @@ Package pdftex.def Info: figures/LongAproximation1200100.pdf used on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [31] [32 <./figures/LongAproximation600100.pdf>] [33 <./figures/LongAproximatio
-n120065.pdf>] [34 <./figures/LongAproximation1200100.pdf>] [35] [36]
-{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[37
+n120065.pdf>] <figures/desordrered.jpg, id=236, 444.91219pt x 307.90031pt>
+File: figures/desordrered.jpg Graphic file (type jpg)
 
-] [38] [39] [40] [41] (thesis.aux)
+<use figures/desordrered.jpg>
+Package pdftex.def Info: figures/desordrered.jpg used on input line 482.
+(pdftex.def)             Requested size: 423.2378pt x 292.90297pt.
+
+Overfull \hbox (1.24626pt too wide) in paragraph at lines 480--485
+[]\T2A/ftm/bx/n/14.4 ƒл€ ро-ста неупо-р€-до-чен-ных мас-си-вов ЌЌ  ис-поль-зо-в
+ал-с€ иной ме-тод, неже-
+ []
+
+[34 <./figures/LongAproximation1200100.pdf>]
+Overfull \hbox (0.3155pt too wide) in paragraph at lines 487--487
+[]\T2A/ftm/bx/n/14.4 »зменение ам-пли-ту-ды “√ц им-пуль-сов, ге-не-ри-ру-е-мых 
+неупо-р€-до-чен-ным мас-
+ []
+
+[35 <./figures/desordrered.jpg>]
+<figures/LongDesordered.pdf, id=247, 769.87625pt x 389.455pt>
+File: figures/LongDesordered.pdf Graphic file (type pdf)
+
+<use figures/LongDesordered.pdf>
+Package pdftex.def Info: figures/LongDesordered.pdf used on input line 489.
+(pdftex.def)             Requested size: 423.2378pt x 214.10582pt.
+
+<figures/LogDesorderShort.pdf, id=248, 769.87625pt x 382.42876pt>
+File: figures/LogDesorderShort.pdf Graphic file (type pdf)
+
+<use figures/LogDesorderShort.pdf>
+Package pdftex.def Info: figures/LogDesorderShort.pdf used on input line 496.
+(pdftex.def)             Requested size: 423.2378pt x 210.24309pt.
+
+<figures/linearDesorder.pdf, id=249, 763.85374pt x 376.40625pt>
+File: figures/linearDesorder.pdf Graphic file (type pdf)
+
+<use figures/linearDesorder.pdf>
+Package pdftex.def Info: figures/linearDesorder.pdf used on input line 501.
+(pdftex.def)             Requested size: 423.2378pt x 208.55757pt.
+ [36 <./figures/LongDesordered.pdf>]
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 506.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 506.
+
+Missing character: There is no н in font cmr12!
+Missing character: There is no м in font cmr12!
+<figures/LineCoefitientDesordered.pdf, id=257, 578.16pt x 366.36874pt>
+File: figures/LineCoefitientDesordered.pdf Graphic file (type pdf)
+
+<use figures/LineCoefitientDesordered.pdf>
+Package pdftex.def Info: figures/LineCoefitientDesordered.pdf used on input lin
+e 508.
+(pdftex.def)             Requested size: 423.2378pt x 268.19606pt.
+ [37 <./figures/LogDesorderShort.pdf> <./figures/linearDesorder.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/linearDesorder.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>] [38 <./figures/LineCoefitientDesordered.pdf>]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+[39
+
+] [40] [41] [42] [43] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6826 strings out of 493634
- 95033 string characters out of 3143744
- 176393 words of memory out of 3000000
- 10067 multiletter control sequences out of 15000+200000
+ 6865 strings out of 493634
+ 96030 string characters out of 3143744
+ 176479 words of memory out of 3000000
+ 10101 multiletter control sequences out of 15000+200000
  10261 words of font info for 30 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  36i,15n,43p,3559b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1188,9 +1247,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (41 pages, 984530 bytes).
+Output written on thesis.pdf (43 pages, 1123974 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
+ 568 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
