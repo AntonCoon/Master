@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  19 JUN 2017 12:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  19 JUN 2017 13:10
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1259,10 +1259,16 @@ LaTeX Font Warning: Font shape `OMS/ftm/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 540.
 
+
+Overfull \hbox (2.97186pt too wide) in paragraph at lines 543--544
+\T2A/ftm/bx/n/14.4 по-нен-ци-аль-ный ха-рак-тер, быст-рое вос-ста-нов-ле-ние пр
+о-ис-хо-дит за счет диф-
+ []
+
 [42
 
 ] [43] [44] [45]
-Underfull \hbox (badness 5652) in paragraph at lines 558--559
+Underfull \hbox (badness 5652) in paragraph at lines 562--563
 \T2A/ftm/bx/n/14.4 Му-ста-фин,ИА; Цыр-лин,ГЭ; Ку-ри-цын,ДИ; Ру-мян-цев,ВВ; Мо-р
 о-зов,СВ;
  []
@@ -1270,9 +1276,6 @@ Underfull \hbox (badness 5652) in paragraph at lines 558--559
 [46] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -1296,7 +1299,7 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (46 pages, 1154315 bytes).
+Output written on thesis.pdf (46 pages, 1154463 bytes).
 PDF statistics:
  584 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
