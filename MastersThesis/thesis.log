@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  19 JUN 2017 14:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  19 JUN 2017 14:24
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1269,7 +1269,7 @@ Overfull \hbox (2.97186pt too wide) in paragraph at lines 543--544
 [42
 
 ] [43] [44]
-Underfull \hbox (badness 5652) in paragraph at lines 562--563
+Underfull \hbox (badness 5652) in paragraph at lines 561--562
 \T2A/ftm/bx/n/14.4 Му-ста-фин,ИА; Цыр-лин,ГЭ; Ку-ри-цын,ДИ; Ру-мян-цев,ВВ; Мо-р
 о-зов,СВ;
  []
@@ -1300,7 +1300,7 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (45 pages, 1154807 bytes).
+Output written on thesis.pdf (45 pages, 1154710 bytes).
 PDF statistics:
  581 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
