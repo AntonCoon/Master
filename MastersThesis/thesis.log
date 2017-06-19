@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  19 JUN 2017 04:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.11)  19 JUN 2017 12:30
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -885,7 +885,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] (thesis.toc
+[2] [3] (thesis.toc
 LaTeX Font Info:    Try loading font information for OT1+ftm on input line 1.
 LaTeX Font Info:    No file OT1ftm.fd. on input line 1.
 
@@ -907,359 +907,376 @@ Overfull \hbox (0.22963pt too wide) in paragraph at lines 19--19
 ос-но-ве $\OML/cmm/m/it/14.4 GaAs$ []  
  []
 
-[3])
+[4])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [4]
+ [5]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-[5
+[6
 
-] [6] <figures/NNWfromArticle.jpg, id=26, 615.80063pt x 715.17188pt>
+] [7] <figures/NNWfromArticle.jpg, id=30, 615.80063pt x 715.17188pt>
 File: figures/NNWfromArticle.jpg Graphic file (type jpg)
 
 <use figures/NNWfromArticle.jpg>
-Package pdftex.def Info: figures/NNWfromArticle.jpg used on input line 161.
+Package pdftex.def Info: figures/NNWfromArticle.jpg used on input line 163.
 (pdftex.def)             Requested size: 298.75697pt x 346.96706pt.
- [7 <./figures/NNWfromArticle.jpg>]
+ [8 <./figures/NNWfromArticle.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8] [9]
-Overfull \hbox (9.62314pt too wide) in paragraph at lines 214--215
+[9] [10]
+Overfull \hbox (9.62314pt too wide) in paragraph at lines 216--217
 []\T2A/ftm/bx/n/14.4 Таким об-ра-зом, ав-то-ры про-де-мон-стри-ро-ва-ли один из
  спо-со-бов изу-че-ния сверх-
  []
 
 
-Overfull \hbox (5.44151pt too wide) in paragraph at lines 215--215
+Overfull \hbox (5.44151pt too wide) in paragraph at lines 217--217
  |[]\T2A/ftm/bx/n/14.4 Вклад безыз-лу-ча-тель-ных иони-зо-ван-ных цен-тров в эл
 ек-три-че-скую про-
  []
 
 
-Overfull \hbox (24.27237pt too wide) in paragraph at lines 219--220
+Overfull \hbox (24.27237pt too wide) in paragraph at lines 221--222
 \T2A/ftm/bx/n/14.4 раз-ца, в ко-то-ром до-пол-ни-тель-но воз-буж-да-ет-ся нерав
 -но-вес-ная электронно-дырочная
  []
 
-[10]
-Overfull \hbox (1.22473pt too wide) in paragraph at lines 224--226
+[11]
+Overfull \hbox (1.22473pt too wide) in paragraph at lines 226--228
 \T2A/ftm/bx/n/14.4 При рас-про-стра-не-нии ла-зер-но-го им-пуль-са, рас-про-стр
 а-ня-ю-ще-го-ся в сре-де с квад-
  []
 
 
-Overfull \hbox (20.5417pt too wide) in paragraph at lines 237--238
+Overfull \hbox (20.5417pt too wide) in paragraph at lines 239--240
 \T2A/ftm/bx/n/14.4 ная ам-пли-ту-да ком-по-нен-ты элек-три-че-ско-го по-ля на р
 аз-ност-ной ча-сто-те, а $[]\OT1/cmr/m/n/14.4 ([]\OML/cmm/m/it/14.4 ; \OT1/cmr/
 m/n/14.4 
 )$
  []
 
-[11]
+[12]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 240.
+               Default added (so using `tbp') on input line 242.
 
-<figures/Fourier1.pdf, id=49, 578.16pt x 371.3875pt>
+<figures/Fourier1.pdf, id=52, 578.16pt x 371.3875pt>
 File: figures/Fourier1.pdf Graphic file (type pdf)
 
 <use figures/Fourier1.pdf>
-Package pdftex.def Info: figures/Fourier1.pdf used on input line 241.
+Package pdftex.def Info: figures/Fourier1.pdf used on input line 243.
 (pdftex.def)             Requested size: 323.64706pt x 207.89624pt.
- [12 <./figures/Fourier1.pdf>]
-Overfull \hbox (9.80994pt too wide) in paragraph at lines 249--249
+ [13 <./figures/Fourier1.pdf>]
+Overfull \hbox (9.80994pt too wide) in paragraph at lines 251--251
 \T2A/ftm/bx/n/14.4 но-вес-ных но-си-те-лей за-ря-да, обу-слов-лен-ной ре-ком-би
 -на-ци-ей электронно-дырочных
  []
 
-<figures/GaAsSurfFields.pdf, id=81, 517.935pt x 397.485pt>
+<figures/GaAsSurfFields.pdf, id=85, 517.935pt x 397.485pt>
 File: figures/GaAsSurfFields.pdf Graphic file (type pdf)
 
 <use figures/GaAsSurfFields.pdf>
-Package pdftex.def Info: figures/GaAsSurfFields.pdf used on input line 253.
+Package pdftex.def Info: figures/GaAsSurfFields.pdf used on input line 255.
 (pdftex.def)             Requested size: 323.64706pt x 248.39111pt.
- [13 <./figures/GaAsSurfFields.pdf>] [14]
-<figures/THzPulseFromNNW.jpg, id=100, 679.03688pt x 472.76625pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15 <./figures/GaAsSurfFields.pdf>]
+<figures/THzPulseFromNNW.jpg, id=103, 679.03688pt x 472.76625pt>
 File: figures/THzPulseFromNNW.jpg Graphic file (type jpg)
 
 <use figures/THzPulseFromNNW.jpg>
-Package pdftex.def Info: figures/THzPulseFromNNW.jpg used on input line 274.
+Package pdftex.def Info: figures/THzPulseFromNNW.jpg used on input line 276.
 (pdftex.def)             Requested size: 323.64706pt x 225.33096pt.
- [15 <./figures/THzPulseFromNNW.jpg>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <figures/ReflectiveNNW.jpg, id=104, 679.78969pt x 526.96875pt>
 File: figures/ReflectiveNNW.jpg Graphic file (type jpg)
 
 <use figures/ReflectiveNNW.jpg>
-Package pdftex.def Info: figures/ReflectiveNNW.jpg used on input line 280.
+Package pdftex.def Info: figures/ReflectiveNNW.jpg used on input line 282.
 (pdftex.def)             Requested size: 323.64706pt x 250.88365pt.
- [16 <./figures/ReflectiveNNW.jpg>] [17]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16] [17 <./figures/THzPulseFromNNW.jpg>] [18 <./figures/ReflectiveNNW.jpg>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-<figures/Scheme.jpg, id=111, 963.6pt x 722.7pt>
+<figures/Scheme.jpg, id=114, 963.6pt x 722.7pt>
 File: figures/Scheme.jpg Graphic file (type jpg)
  <use figures/Scheme.jpg>
-Package pdftex.def Info: figures/Scheme.jpg used on input line 290.
+Package pdftex.def Info: figures/Scheme.jpg used on input line 292.
 (pdftex.def)             Requested size: 323.64706pt x 242.72629pt.
 
-[18
+[19
 
- <./figures/Scheme.jpg>] [19]
-<figures/OrderedSamples.jpg, id=119, 963.6pt x 511.15968pt>
+ <./figures/Scheme.jpg>] [20]
+<figures/OrderedSamples.jpg, id=122, 963.6pt x 511.15968pt>
 File: figures/OrderedSamples.jpg Graphic file (type jpg)
 
 <use figures/OrderedSamples.jpg>
-Package pdftex.def Info: figures/OrderedSamples.jpg used on input line 303.
+Package pdftex.def Info: figures/OrderedSamples.jpg used on input line 305.
 (pdftex.def)             Requested size: 423.2378pt x 224.51317pt.
- [20] [21 <./figures/OrderedSamples.jpg>]
-<figures/long600100.pdf, id=126, 791.95876pt x 389.455pt>
+ [21] [22 <./figures/OrderedSamples.jpg>]
+<figures/long600100.pdf, id=129, 791.95876pt x 389.455pt>
 File: figures/long600100.pdf Graphic file (type pdf)
 
 <use figures/long600100.pdf>
-Package pdftex.def Info: figures/long600100.pdf used on input line 312.
+Package pdftex.def Info: figures/long600100.pdf used on input line 314.
 (pdftex.def)             Requested size: 423.2378pt x 208.13351pt.
 
-<figures/long120065.pdf, id=127, 769.87625pt x 389.455pt>
+<figures/long120065.pdf, id=130, 769.87625pt x 389.455pt>
 File: figures/long120065.pdf Graphic file (type pdf)
 
 <use figures/long120065.pdf>
-Package pdftex.def Info: figures/long120065.pdf used on input line 317.
+Package pdftex.def Info: figures/long120065.pdf used on input line 319.
 (pdftex.def)             Requested size: 423.2378pt x 214.10582pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22 <./figures/long600100.pdf>]
-<figures/long1200100.pdf, id=135, 782.925pt x 389.455pt>
+[23 <./figures/long600100.pdf>]
+<figures/long1200100.pdf, id=138, 782.925pt x 389.455pt>
 File: figures/long1200100.pdf Graphic file (type pdf)
 
 <use figures/long1200100.pdf>
-Package pdftex.def Info: figures/long1200100.pdf used on input line 323.
+Package pdftex.def Info: figures/long1200100.pdf used on input line 325.
 (pdftex.def)             Requested size: 423.2378pt x 210.53432pt.
- [23 <./figures/long120065.pdf> <./figures/long1200100.pdf
+ [24 <./figures/long120065.pdf> <./figures/long1200100.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/long1200100.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] <figures/short600100.pdf, id=146, 791.95876pt x 389.455pt>
+>] <figures/short600100.pdf, id=149, 791.95876pt x 389.455pt>
 File: figures/short600100.pdf Graphic file (type pdf)
 
 <use figures/short600100.pdf>
-Package pdftex.def Info: figures/short600100.pdf used on input line 332.
+Package pdftex.def Info: figures/short600100.pdf used on input line 334.
 (pdftex.def)             Requested size: 423.2378pt x 208.13351pt.
 
-<figures/short120065.pdf, id=147, 782.925pt x 389.455pt>
+<figures/short120065.pdf, id=150, 782.925pt x 389.455pt>
 File: figures/short120065.pdf Graphic file (type pdf)
 
 <use figures/short120065.pdf>
-Package pdftex.def Info: figures/short120065.pdf used on input line 337.
+Package pdftex.def Info: figures/short120065.pdf used on input line 339.
 (pdftex.def)             Requested size: 423.2378pt x 210.53432pt.
 
-<figures/short1200100.pdf, id=148, 782.925pt x 389.455pt>
+<figures/short1200100.pdf, id=151, 782.925pt x 389.455pt>
 File: figures/short1200100.pdf Graphic file (type pdf)
 
 <use figures/short1200100.pdf>
-Package pdftex.def Info: figures/short1200100.pdf used on input line 342.
+Package pdftex.def Info: figures/short1200100.pdf used on input line 344.
 (pdftex.def)             Requested size: 423.2378pt x 210.53432pt.
- [24 <./figures/short600100.pdf>] [25 <./figures/short120065.pdf> <./figures/sh
+ [25 <./figures/short600100.pdf>] [26 <./figures/short120065.pdf> <./figures/sh
 ort1200100.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/short1200100.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] <figures/shortLog600100.pdf, id=167, 791.95876pt x 382.42876pt>
+>] <figures/shortLog600100.pdf, id=170, 791.95876pt x 382.42876pt>
 File: figures/shortLog600100.pdf Graphic file (type pdf)
 
 <use figures/shortLog600100.pdf>
-Package pdftex.def Info: figures/shortLog600100.pdf used on input line 360.
+Package pdftex.def Info: figures/shortLog600100.pdf used on input line 362.
 (pdftex.def)             Requested size: 423.2378pt x 204.37852pt.
- [26]
-<figures/shortLog120065.pdf, id=171, 782.925pt x 382.42876pt>
+ [27]
+<figures/shortLog120065.pdf, id=174, 782.925pt x 382.42876pt>
 File: figures/shortLog120065.pdf Graphic file (type pdf)
 
 <use figures/shortLog120065.pdf>
-Package pdftex.def Info: figures/shortLog120065.pdf used on input line 367.
+Package pdftex.def Info: figures/shortLog120065.pdf used on input line 369.
 (pdftex.def)             Requested size: 423.2378pt x 206.73602pt.
 
-<figures/shortLog1200100.pdf, id=172, 782.925pt x 382.42876pt>
+<figures/shortLog1200100.pdf, id=175, 782.925pt x 382.42876pt>
 File: figures/shortLog1200100.pdf Graphic file (type pdf)
 
 <use figures/shortLog1200100.pdf>
-Package pdftex.def Info: figures/shortLog1200100.pdf used on input line 372.
+Package pdftex.def Info: figures/shortLog1200100.pdf used on input line 374.
 (pdftex.def)             Requested size: 423.2378pt x 206.73602pt.
- [27 <./figures/shortLog600100.pdf>]
-<figures/linear600100.pdf, id=180, 785.93625pt x 382.42876pt>
+ [28 <./figures/shortLog600100.pdf>]
+<figures/linear600100.pdf, id=183, 785.93625pt x 382.42876pt>
 File: figures/linear600100.pdf Graphic file (type pdf)
 
 <use figures/linear600100.pdf>
-Package pdftex.def Info: figures/linear600100.pdf used on input line 378.
+Package pdftex.def Info: figures/linear600100.pdf used on input line 380.
 (pdftex.def)             Requested size: 423.2378pt x 205.94824pt.
- [28 <./figures/shortLog120065.pdf> <./figures/shortLog1200100.pdf
+ [29 <./figures/shortLog120065.pdf> <./figures/shortLog1200100.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/shortLog1200100.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->] <figures/linear120065.pdf, id=191, 763.85374pt x 382.42876pt>
+>] <figures/linear120065.pdf, id=194, 763.85374pt x 382.42876pt>
 File: figures/linear120065.pdf Graphic file (type pdf)
 
 <use figures/linear120065.pdf>
-Package pdftex.def Info: figures/linear120065.pdf used on input line 383.
+Package pdftex.def Info: figures/linear120065.pdf used on input line 385.
 (pdftex.def)             Requested size: 423.2378pt x 211.8945pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/linear1200100.pdf, id=192, 776.9025pt x 385.44pt>
+<figures/linear1200100.pdf, id=195, 776.9025pt x 385.44pt>
 File: figures/linear1200100.pdf Graphic file (type pdf)
 
 <use figures/linear1200100.pdf>
-Package pdftex.def Info: figures/linear1200100.pdf used on input line 388.
+Package pdftex.def Info: figures/linear1200100.pdf used on input line 390.
 (pdftex.def)             Requested size: 423.2378pt x 209.98123pt.
- [29 <./figures/linear600100.pdf> <./figures/linear1200100.pdf
+ [30 <./figures/linear600100.pdf> <./figures/linear1200100.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/linear1200100.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] <figures/OrderedShortCoefitients.pdf, id=204, 794.97pt x 375.4025pt>
+>] <figures/OrderedShortCoefitients.pdf, id=207, 794.97pt x 375.4025pt>
 File: figures/OrderedShortCoefitients.pdf Graphic file (type pdf)
 
 <use figures/OrderedShortCoefitients.pdf>
 Package pdftex.def Info: figures/OrderedShortCoefitients.pdf used on input line
- 394.
+ 396.
 (pdftex.def)             Requested size: 423.2378pt x 199.86742pt.
- [30 <./figures/linear120065.pdf> <./figures/OrderedShortCoefitients.pdf
+ [31 <./figures/linear120065.pdf> <./figures/OrderedShortCoefitients.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/OrderedShortCoefitients.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
 >]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 402.
+               Default added (so using `tbp') on input line 404.
 
-[31] <figures/LongAproximation600100.pdf, id=219, 776.9025pt x 392.46625pt>
+[32] <figures/LongAproximation600100.pdf, id=222, 776.9025pt x 392.46625pt>
 File: figures/LongAproximation600100.pdf Graphic file (type pdf)
 
 <use figures/LongAproximation600100.pdf>
 Package pdftex.def Info: figures/LongAproximation600100.pdf used on input line 
-422.
+424.
 (pdftex.def)             Requested size: 423.2378pt x 213.809pt.
 
-<figures/LongAproximation120065.pdf, id=220, 763.85374pt x 389.455pt>
+<figures/LongAproximation120065.pdf, id=223, 763.85374pt x 389.455pt>
 File: figures/LongAproximation120065.pdf Graphic file (type pdf)
 
 <use figures/LongAproximation120065.pdf>
 Package pdftex.def Info: figures/LongAproximation120065.pdf used on input line 
-427.
+429.
 (pdftex.def)             Requested size: 423.2378pt x 215.78758pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/LongAproximation1200100.pdf, id=221, 776.9025pt x 389.455pt>
+<figures/LongAproximation1200100.pdf, id=224, 776.9025pt x 389.455pt>
 File: figures/LongAproximation1200100.pdf Graphic file (type pdf)
 
 <use figures/LongAproximation1200100.pdf>
 Package pdftex.def Info: figures/LongAproximation1200100.pdf used on input line
- 432.
+ 434.
 (pdftex.def)             Requested size: 423.2378pt x 212.16853pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32 <./figures/LongAproximation600100.pdf>] [33 <./figures/LongAproximation1200
-65.pdf>] [34 <./figures/LongAproximation1200100.pdf>]
-<figures/desordrered.jpg, id=243, 444.91219pt x 307.90031pt>
+[33 <./figures/LongAproximation600100.pdf>] [34 <./figures/LongAproximation1200
+65.pdf>] [35 <./figures/LongAproximation1200100.pdf>]
+<figures/desordrered.jpg, id=246, 444.91219pt x 307.90031pt>
 File: figures/desordrered.jpg Graphic file (type jpg)
 
 <use figures/desordrered.jpg>
-Package pdftex.def Info: figures/desordrered.jpg used on input line 482.
+Package pdftex.def Info: figures/desordrered.jpg used on input line 484.
 (pdftex.def)             Requested size: 423.2378pt x 292.90297pt.
 
-Overfull \hbox (1.246pt too wide) in paragraph at lines 480--485
+Overfull \hbox (1.246pt too wide) in paragraph at lines 482--487
 \T2A/ftm/bx/n/14.4 ляр-но пуч-ко-вой эпи-так-сии. Фор-ми-ро-ва-ние неупо-ря-до-
 чен-ных мас-си-вов ННК осу-
  []
 
-[35]
-Overfull \hbox (0.3155pt too wide) in paragraph at lines 487--487
+[36]
+Overfull \hbox (0.3155pt too wide) in paragraph at lines 489--489
 []\T2A/ftm/bx/n/14.4 Изменение ам-пли-ту-ды ТГц им-пуль-сов, ге-не-ри-ру-е-мых 
 неупо-ря-до-чен-ным мас-
  []
 
-<figures/LongDesordered.pdf, id=247, 769.87625pt x 389.455pt>
+<figures/LongDesordered.pdf, id=250, 769.87625pt x 389.455pt>
 File: figures/LongDesordered.pdf Graphic file (type pdf)
 
 <use figures/LongDesordered.pdf>
-Package pdftex.def Info: figures/LongDesordered.pdf used on input line 489.
+Package pdftex.def Info: figures/LongDesordered.pdf used on input line 491.
 (pdftex.def)             Requested size: 423.2378pt x 214.10582pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/LogDesorderShort.pdf, id=248, 769.87625pt x 382.42876pt>
+<figures/LogDesorderShort.pdf, id=251, 769.87625pt x 382.42876pt>
 File: figures/LogDesorderShort.pdf Graphic file (type pdf)
 
 <use figures/LogDesorderShort.pdf>
-Package pdftex.def Info: figures/LogDesorderShort.pdf used on input line 496.
+Package pdftex.def Info: figures/LogDesorderShort.pdf used on input line 498.
 (pdftex.def)             Requested size: 423.2378pt x 210.24309pt.
- [36 <./figures/desordrered.jpg>]
-<figures/linearDesorder.pdf, id=252, 763.85374pt x 376.40625pt>
+ [37 <./figures/desordrered.jpg>]
+<figures/linearDesorder.pdf, id=256, 763.85374pt x 376.40625pt>
 File: figures/linearDesorder.pdf Graphic file (type pdf)
 
 <use figures/linearDesorder.pdf>
-Package pdftex.def Info: figures/linearDesorder.pdf used on input line 501.
+Package pdftex.def Info: figures/linearDesorder.pdf used on input line 503.
 (pdftex.def)             Requested size: 423.2378pt x 208.55757pt.
- [37 <./figures/LongDesordered.pdf>]
+ [38 <./figures/LongDesordered.pdf>]
 
-LaTeX Warning: Command \cyrn invalid in math mode on input line 506.
+LaTeX Warning: Command \cyrn invalid in math mode on input line 508.
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 506.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 508.
 
 Missing character: There is no н in font cmr12!
 Missing character: There is no м in font cmr12!
-<figures/LineCoefitientDesordered.pdf, id=261, 578.16pt x 366.36874pt>
+<figures/LineCoefitientDesordered.pdf, id=264, 578.16pt x 366.36874pt>
 File: figures/LineCoefitientDesordered.pdf Graphic file (type pdf)
 
 <use figures/LineCoefitientDesordered.pdf>
 Package pdftex.def Info: figures/LineCoefitientDesordered.pdf used on input lin
-e 508.
+e 510.
 (pdftex.def)             Requested size: 423.2378pt x 268.19606pt.
- [38 <./figures/LogDesorderShort.pdf> <./figures/linearDesorder.pdf
+ [39 <./figures/LogDesorderShort.pdf> <./figures/linearDesorder.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/linearDesorder.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >]
-<figures/LongAproximationsDesordered.pdf, id=272, 763.85374pt x 388.45125pt>
+<figures/LongAproximationsDesordered.pdf, id=275, 763.85374pt x 388.45125pt>
 File: figures/LongAproximationsDesordered.pdf Graphic file (type pdf)
 
 <use figures/LongAproximationsDesordered.pdf>
 Package pdftex.def Info: figures/LongAproximationsDesordered.pdf used on input 
-line 515.
+line 517.
 (pdftex.def)             Requested size: 423.2378pt x 215.23141pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39 <./figures/LineCoefitientDesordered.pdf>] [40 <./figures/LongAproximationsD
+[40 <./figures/LineCoefitientDesordered.pdf>] [41 <./figures/LongAproximationsD
 esordered.pdf>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-LaTeX Font Info:    Try loading font information for OMS+ftm on input line 538.
+LaTeX Font Info:    Try loading font information for OMS+ftm on input line 540.
 
-LaTeX Font Info:    No file OMSftm.fd. on input line 538.
+LaTeX Font Info:    No file OMSftm.fd. on input line 540.
 
 LaTeX Font Warning: Font shape `OMS/ftm/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 538.
+(Font)              for symbol `textbullet' on input line 540.
 
-[41
+[42
 
-] [42] [43] [44] [45] [46] (thesis.aux)
+] [43] [44] [45]
+Underfull \hbox (badness 5652) in paragraph at lines 558--559
+\T2A/ftm/bx/n/14.4 Му-ста-фин,ИА; Цыр-лин,ГЭ; Ку-ри-цын,ДИ; Ру-мян-цев,ВВ; Мо-р
+о-зов,СВ;
+ []
+
+[46] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6879 strings out of 493634
- 96371 string characters out of 3143744
- 173512 words of memory out of 3000000
- 10112 multiletter control sequences out of 15000+200000
+ 6882 strings out of 493634
+ 96428 string characters out of 3143744
+ 173530 words of memory out of 3000000
+ 10115 multiletter control sequences out of 15000+200000
  10261 words of font info for 30 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  36i,15n,43p,3634b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1276,9 +1293,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (46 pages, 1152723 bytes).
+Output written on thesis.pdf (46 pages, 1153601 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
+ 584 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
